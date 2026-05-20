@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcúlo de acertividade de chutes:</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONVERSÃO DE FINALIZAÇÕES EM GOLS:</h1>
+    <div class="container">
+        <form action="" id="formulario">
+            <label for="combustivel">FINALIZAÇÕES CONVERTIDAS PARA GOLS: </label>
+
+            <input type="number" name="etanol" id="etanol" placeholder="QUANTIDADE DE FINALIZAÇÕES:" 0.01>
+
+            <input type="number" name="gasolina" id="gasolina" placeholder="QUANTIDADE DE GOLS:" 0.01>
+
+            <input type="button" value="CALCULAR" onclick="calcular()">
+            <input type="button" value="LIMPAR" onclick="limpar()">
+            <input type="button" value="MARGEM" onclick="margem()">
+        </form>
+        <img src="img/chute.jpg" class="img-tanque" alt="img-tanque" id="status">
+        <p id="mensagem">Resultado:</p>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
